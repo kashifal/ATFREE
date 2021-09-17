@@ -6,8 +6,7 @@
     margin: 0%;
     box-sizing: border-box;
 }
-body{
-    position: relative;
+body{ 
 }
 .header
 {
@@ -194,6 +193,177 @@ hr{
 
 }
 
+.social-buttons
+{
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15vh;
+}
+.s-buttons
+{
+    width: 90%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column; 
+}
+.status
+{
+    width: 100%;
+    height: 7vh;
+    background: #ffffff;
+    border: 1px solid rgba(230, 230, 230, 0.925);
+    display: flex;
+    flex-direction: row;
+    background: #FEC260;
+    border-radius: 5px;
+}
+.status-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  100%;
+    width: 100%;
+    color: rgb(99, 98, 98);
+    font-family: 'poppins';
+}
+.status-1 
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.status-1 .dot-1
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background: rgba(199, 5, 5, 0.829);
+}
+
+.status-1 .dot-2
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background: rgb(10, 156, 224);
+}
+
+.status-1 .dot-3
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background: rgb(7, 182, 80);
+}
+.ss-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 73vh;
+    margin-left: 5%;
+}
+.btn-one
+{
+    width: 20vw;
+    border-radius: 10px;
+    height: 38vh;
+    border: 1px solid yellowgreen;
+    background: black;
+    position: relative;
+}
+.btn-one-1
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;    
+    border: 2px solid rgb(28, 31, 22);
+
+}
+
+.btn-one-1:hover
+{
+    transform: translateX(0%) translateY(0%);
+    
+    transform: translateX(5%) translateY(5%);
+    transition: 0.4s ease;
+}
+
+.btn-two
+{
+    width: 20vw;
+    border-radius: 10px;
+    height: 38vh;
+    position: relative;
+    border: 1px solid yellowgreen;
+    background: black;
+}
+.btn-two-2
+{
+    width: 100%;    border: 2px solid rgb(28, 31, 22);
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-two-2:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+/**/
+
+.btn-three
+{
+    position: relative;
+    width: 20vw;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+}
+.btn-three-3
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;    border: 2px solid rgb(28, 31, 22);
+
+    cursor: pointer;
+}
+
+.btn-three-3:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
 
 
 
@@ -278,6 +448,115 @@ hr{
     border-left: 18px solid #b00247;
     transition: .3s ease-out;
 }
+
+.ss-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 73vh;
+    margin-left: 3%;
+}
+.btn-one
+{
+    width: 25vw;
+    border-radius: 10px;
+    height: 38vh;
+    border: 1px solid yellowgreen;
+    background: black;
+    position: relative;
+}
+.btn-one-1
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;    
+    border: 2px solid rgb(28, 31, 22);
+
+}
+
+.btn-one-1:hover
+{
+    transform: translateX(0%) translateY(0%);
+    
+    transform: translateX(5%) translateY(5%);
+    transition: 0.4s ease;
+}
+
+.btn-two
+{
+    width: 25vw;
+    border-radius: 10px;
+    height: 38vh;
+    position: relative;
+    border: 1px solid yellowgreen;
+    background: black;
+}
+.btn-two-2
+{
+    width: 100%;    border: 2px solid rgb(28, 31, 22);
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-two-2:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+/**/
+
+.btn-three
+{
+    position: relative;
+    width: 25vw;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+}
+.btn-three-3
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;    border: 2px solid rgb(28, 31, 22);
+
+    cursor: pointer;
+}
+
+.btn-three-3:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+
+
+
+
 } 
 
 
@@ -365,6 +644,10 @@ hr{
     height: 360px;
     
 }
+.social-buttons
+{
+    margin-top: 105vh;
+}
 
 }
 
@@ -450,6 +733,175 @@ hr{
     
 }
 
+.ss-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    height: 180vh;
+    margin-top: 10vh;
+}
+.btn-one
+{
+   
+    width: 60vw;
+    height: 800px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 10vh;
+    position: relative;
+}
+.btn-one-1
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;    
+    border: 2px solid rgb(28, 31, 22);
+
+}
+
+.btn-one-1:hover
+{
+    transform: translateX(0%) translateY(0%);
+    
+    transform: translateX(5%) translateY(5%);
+    transition: 0.4s ease;
+}
+
+.btn-two
+{
+  
+    width: 60vw;
+    height: 800px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 10vh;
+    position: relative;
+}
+.btn-two-2
+{
+    width: 100%;    border: 2px solid rgb(28, 31, 22);
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-two-2:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+/**/
+
+.btn-three
+{
+    position: relative;
+    width: 60vw;
+    height: 800px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 10vh;
+}
+.btn-three-3
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;    border: 2px solid rgb(28, 31, 22);
+
+    cursor: pointer;
+}
+
+.btn-three-3:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+.status
+{
+    width: 100%;
+    height: 10vh;
+    background: #ffffff;
+    border: 1px solid rgba(230, 230, 230, 0.925);
+    display: flex;
+    flex-direction: row;
+    background: #FEC260;
+    border-radius: 5px;
+}
+.social-buttons
+{
+    width: 100%;
+    height: 200vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70vh;
+}
+
+
+
+.status-1 
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+    justify-content: space-evenly;
+}
+.status-1 .dot-1
+{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(199, 5, 5, 0.829);
+}
+
+.status-1 .dot-2
+{
+    width: 6px;
+    height: 6px;
+    margin-left: 3p3;
+    border-radius: 5px;
+    background: rgb(10, 156, 224);
+}
+
+.status-1 .dot-3
+{
+    width: 6px;
+    height: 6px;
+    margin-left: 3p3;
+    border-radius: 5px;
+    background: rgb(7, 182, 80);
+}
+
+
+
 }
 
 @media all and (max-width:420px)
@@ -533,6 +985,173 @@ hr{
     width: 320px;
     height: 360px;
     
+}
+
+.ss-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    height: 180vh;
+    margin-top: 10vh;
+}
+.btn-one
+{
+   
+    width: 60vw;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 10vh;
+    position: relative;
+}
+.btn-one-1
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;    
+    border: 2px solid rgb(28, 31, 22);
+
+}
+
+.btn-one-1:hover
+{
+    transform: translateX(0%) translateY(0%);
+    
+    transform: translateX(5%) translateY(5%);
+    transition: 0.4s ease;
+}
+
+.btn-two
+{
+  
+    width: 60vw;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 10vh;
+    position: relative;
+}
+.btn-two-2
+{
+    width: 100%;    border: 2px solid rgb(28, 31, 22);
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-two-2:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+/**/
+
+.btn-three
+{
+    position: relative;
+    width: 60vw;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 10vh;
+}
+.btn-three-3
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;    border: 2px solid rgb(28, 31, 22);
+
+    cursor: pointer;
+}
+
+.btn-three-3:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+.status
+{
+    width: 100%;
+    height: 10vh;
+    background: #ffffff;
+    border: 1px solid rgba(230, 230, 230, 0.925);
+    display: flex;
+    flex-direction: row;
+    background: #FEC260;
+    border-radius: 5px;
+}
+.social-buttons
+{
+    width: 100%;
+    height: 200vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70vh;
+}
+
+
+
+.status-1 
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+    justify-content: space-evenly;
+}
+.status-1 .dot-1
+{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(199, 5, 5, 0.829);
+}
+
+.status-1 .dot-2
+{
+    width: 6px;
+    height: 6px;
+    margin-left: 3p3;
+    border-radius: 5px;
+    background: rgb(10, 156, 224);
+}
+
+.status-1 .dot-3
+{
+    width: 6px;
+    height: 6px;
+    margin-left: 3p3;
+    border-radius: 5px;
+    background: rgb(7, 182, 80);
 }
 
 }
@@ -708,5 +1327,271 @@ hr{
     
 }
 
+}
+
+
+@media all and (max-width:320px)
+{
+    
+.main
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+    position: relative;
+    z-index: -1;
+}
+.status-2 p
+{
+    font-size: 12px;
+    color: white;
+}
+
+.main .one
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+ }
+ .main .one .solo
+ {
+     margin-left: 15%;
+     margin-right: 15%;
+     margin-top: 20%;
+ }
+ .one .solo h1
+ {
+     font-family: 'poppins';
+     font-size: 22px;
+     color: rgb(66, 65, 65);
+ }
+ .one .solo p 
+ {
+    font-family: 'poppins';
+    font-size: 12px;
+    color: rgb(71, 71, 71);
+}
+.main .two
+{
+    width: 45%;
+    height: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one .solo .buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+.one .solo .buttons button
+{
+    padding: 14px 13px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    font-family: 'poppins';
+}
+.one .solo .buttons button:nth-child(2){
+    background: #A12568;
+    color: white;
+}
+
+.one .solo .buttons button:nth-child(1){
+    background: #FEC260;
+}
+.main .two img
+{
+    margin-top: 30vh;
+    width: 250px;
+    height: 280px;
+    
+}
+
+.ss-buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    height: 180vh;
+    margin-top: 12vh;
+}
+.btn-one
+{
+   
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 2vh;
+    position: relative;
+}
+.btn-one-1
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;    
+    border: 2px solid rgb(28, 31, 22);
+
+}
+
+.btn-one-1:hover
+{
+    transform: translateX(0%) translateY(0%);
+    
+    transform: translateX(5%) translateY(5%);
+    transition: 0.4s ease;
+}
+
+.btn-two
+{
+  
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 2vh;
+    position: relative;
+}
+.btn-two-2
+{
+    width: 100%;    border: 2px solid rgb(28, 31, 22);
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-two-2:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+/**/
+
+.btn-three
+{
+    position: relative;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background: black;
+    margin-top: 2vh;
+}
+.btn-three-3
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #FEC260;
+    transform: translateX(-5%) translateY(-5%);
+    transition: 0.4s ease;    border: 2px solid rgb(28, 31, 22);
+
+    cursor: pointer;
+}
+
+.btn-three-3:hover
+{
+    transform: translateX(0%) translateY(0%);
+    transition: 0.4s ease;
+
+
+}
+
+
+.status
+{
+    width: 100%;
+    height: 10vh;
+    background: #ffffff;
+    border: 1px solid rgba(230, 230, 230, 0.925);
+    display: flex;
+    flex-direction: row;
+    background: #FEC260;
+    border-radius: 5px;
+}
+.social-buttons
+{
+    width: 100%;
+    height: 200vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70vh;
+}
+
+
+
+.status-1 
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+    justify-content: space-evenly;
+}
+.status-1 .dot-1
+{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(199, 5, 5, 0.829);
+}
+
+.status-1 .dot-2
+{
+    width: 6px;
+    height: 6px;
+    margin-left: 3p3;
+    border-radius: 5px;
+    background: rgb(10, 156, 224);
+}
+
+.status-1 .dot-3
+{
+    width: 6px;
+    height: 6px;
+    margin-left: 3p3;
+    border-radius: 5px;
+    background: rgb(7, 182, 80);
+}
+.social-buttons
+{
+    width: 100%;
+    height:200vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70vh;
+}
 }
 
